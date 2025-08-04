@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couleurs du Vin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .color-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .color-sample {
+            height: 120px;
+            width: 100%;
+        }
+
+        .color-info {
+            padding: 1rem;
+        }
+
+        .color-name {
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Palette des Couleurs du Vin</h1>
+    <div class="grid">
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #F5F5DC;"></div>
+            <div class="color-info">
+                <div class="color-name">Paille (Straw)</div>
+                <div class="description">Une teinte jaune pâle verdâtre, typique des vins blancs jeunes comme un
+                    Sauvignon de la Loire. D'une grande fraîcheur visuelle, elle suggère vivacité et acidité en bouche.
+                </div>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #FFD700;"></div>
+            <div class="color-info">
+                <div class="color-name">Doré (Golden)</div>
+                <div class="description">Or lumineux et profond, souvent retrouvé dans les blancs de garde ou liquoreux.
+                    Ce ton évoque richesse, onctuosité et concentration aromatique.</div>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #FFB6C1;"></div>
+            <div class="color-info">
+                <div class="color-name">Rosé pâle (Pale Rosé)</div>
+                <div class="description">Une nuance délicate, presque translucide, emblématique des rosés de Provence.
+                    Synonyme de fraîcheur, floralité et élégance estivale.</div>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #FA8072;"></div>
+            <div class="color-info">
+                <div class="color-name">Saumon (Salmon)</div>
+                <div class="description">Teinte classique d'un rosé plus structuré, comme ceux du Languedoc. Elle
+                    suggère une bouche plus vineuse avec une touche d'épices douces.</div>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #722F37;"></div>
+            <div class="color-info">
+                <div class="color-name">Rouge vin (Wine Red)</div>
+                <div class="description">Rouge profond aux reflets bruns. Couleur emblématique d'un Bordeaux classique à
+                    maturité. Elle révèle des arômes tertiaires de sous-bois et de cuir.</div>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #800020;"></div>
+            <div class="color-info">
+                <div class="color-name">Bourgogne (Burgundy)</div>
+                <div class="description">Rouge intense aux reflets violacés. Typique des Pinot Noirs de Bourgogne, elle
+                    traduit finesse, profondeur et potentiel de garde.</div>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-sample" style="background-color: #CD5700;"></div>
+            <div class="color-info">
+                <div class="color-name">Tuilé (Tawny)</div>
+                <div class="description">Orange cuivré, caractéristique des vieux vins oxydatifs comme les Porto Tawny.
+                    Elle exprime la complexité des arômes évolués (noix, caramel).</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
